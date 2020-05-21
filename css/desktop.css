@@ -8,40 +8,36 @@
     font-weight: normal;
     font-style: normal;
 }
-.middle {
+html {
 	
 	background-color: #010101;
+	width: 100%;
+
 
 }
 
 a {
 	color: #cc6666 ; 
 }
-.top_banner {
+.middle {
 	height: 1000px;
-	position: relative;
+}
+.top_banner {
+	height: 100%;
 	background-image: url(../img/5.png);
-	background-position: top center;
-	background-repeat: no-repeat;
 	opacity: .1;
 	z-index: 0;
-}
+	top: 0px;
+	margin: 0 0 0 -500px;
+	left: 50%;
 
-.top_overlay {
-	background-image: url(../img/4.jpg);
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: top center;
-	top: 200px;
 	
  }
 .box_logo {
-	background-size: min50%;
  	position: absolute;
+ 	max-width: 350px;
  	top: 50px;
-	margin-left: -11em;
+	margin: 0 0 0 -175px;
 	left: 50%;
  	text-align: center
  }
@@ -50,9 +46,9 @@ a {
 	width: 150px;
     height: 250px;
     position: absolute;
-    top: 215px;
+    top: 150px;
     left: 50%;
-    margin: -75px 0 0 -75px;
+    margin: 0 0 0 -75px;
  	text-align: center;
 }
 
@@ -107,14 +103,16 @@ a {
  
  }
  .copyright {
-	 font-family: "Courier New", Courier, sans-serif;
+ 	position: absolute;
+ 	width: 276px;
+	font-family: "Courier New", Courier, sans-serif;
  	font-size: 17px;
  	color: #ffffff;
 	text-shadow: rgba(0, 0, 0, 6) 1px 1px;
- 	width: 100%; /* Ширина макета без полей */
  	padding: 6px 10px 10px; /* Поля */
- 	margin: 0 auto; /* Выравнивание по центру */
- 	 text-align: center;
+	margin: 0 0 0 -142px;
+	left: 50%;
+ 	text-align: center;
 }
 .copyright p { 
  	margin: 0 0 0px 0px; /* Отступы текста */ 
@@ -126,7 +124,7 @@ a {
 
 
  
-body .slider {
+.slider {
 	z-index: 1;
 	overflow:hidden;
 	position:absolute;
@@ -137,22 +135,22 @@ body .slider {
     margin-right:-50%;
     transform: translate(-50%, -50%)
 }
-	body .slider .slides {
+	.slider .slides {
 			position:relative;
 			transition:1s; /* Задаем время изменения блока, отвечает за плавную прокрутку */
 		}
 		
-			body .slider .slides .slide {
+			.slider .slides .slide {
 				float:left;
 				display:block;
 			}
 			
-			body .slider .slides .slide img{
+			.slider .slides .slide img{
 				width:800px;
 				height:500px;
 			}
 			
-		body .slider .next {
+		.slider .next {
 			background-image: url(../img/left.png);
 			-webkit-background-size: 50px;
 			background-size: 50px;
@@ -167,7 +165,7 @@ body .slider {
 			cursor:pointer;
 		}
 		
-		body .slider .prev {
+		.slider .prev {
 			background-image: url(../img/right.png);
 			-webkit-background-size: 50px;
 			background-size: 50px;
