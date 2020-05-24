@@ -102,12 +102,16 @@ html {
  	margin: 0 0 0 -160px;
  	left: 50%; 
  	text-align: center;
+
 }
 .copyright p { 
  	margin: 0 0 0px 0px; /* Отступы текста */ 
 }
 
-
+.insta{
+	text-decoration: none;
+	color:#ffffff;
+}
 
 
 

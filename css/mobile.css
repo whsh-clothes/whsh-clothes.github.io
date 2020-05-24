@@ -99,16 +99,18 @@ html {
 	margin: -150px 0 0 -150px;
 
  }
- 
+ footer {
+ 	height: 130px;
+ }
  .copyright {
  	position: absolute;
- 	width: 300px;
+ 	width: 800px;
 	font-family: "Courier New", Courier, sans-serif;
- 	font-size: 17px;
+ 	font-size: 45px;
  	color: #ffffff;
 	text-shadow: rgba(0, 0, 0, 6) 1px 1px;
- 	padding: 6px 10px 10px; /* Поля */
- 	margin: 0 0 0 -160px;
+ 	padding: 9px 10px 10px; /* Поля */
+ 	margin: 0 0 0 -400px;
  	left: 50%; 
  	text-align: center;
 }
