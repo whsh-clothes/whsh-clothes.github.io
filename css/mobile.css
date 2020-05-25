@@ -16,10 +16,7 @@ html {
 
 
 
-}
-.middle {
-	
-	width: 100%;
+
 }
 .top_banner {
 	height: 100%;
@@ -47,7 +44,7 @@ html {
 	width: 300px;
     height: 250px;
     position: absolute;
-    top: 220px;
+    top: 300px;
     left: 50%;
     margin: 0 0 0 -150px;
  	text-align: center;
@@ -128,8 +125,9 @@ html {
 	z-index: 1;
 	overflow:hidden;
 	position:absolute;
-	width:900px;
-	height:600px;
+	bottom: 0;
+	width:800px;
+	height:500px;
 	left:50%;
 	top:900px;
     margin-right:-50%;

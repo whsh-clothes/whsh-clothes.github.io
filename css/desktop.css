@@ -9,7 +9,6 @@
     font-style: normal;
 }
 html {
-	
 	background-color: #010101;
 }
 
@@ -121,6 +120,7 @@ html {
 	z-index: 1;
 	overflow:hidden;
 	position:absolute;
+	bottom: 0;
 	width:800px;
 	height:500px;
 	left:50%;
