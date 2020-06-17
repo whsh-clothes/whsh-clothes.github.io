@@ -99,7 +99,7 @@ xmp {
 
 html,
 body {
-  height: 100%;
+  height: 96%;
 }
 
 article,
@@ -121,7 +121,7 @@ section {
   IE8 (and lower) requires a shiv:
   http://ejohn.org/blog/html5-shiv
 */
-  display: block;
+  display: inline;
 }
 
 b,
