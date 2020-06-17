@@ -95,9 +95,7 @@ html {
 	width: 100%;
 	margin: -150px 0 0 -150px;
 
- }
- footer {
- 	height: 130px;
+
  }
  .copyright {
  	position: absolute;
@@ -107,7 +105,7 @@ html {
  	color: #ffffff;
 	text-shadow: rgba(0, 0, 0, 6) 1px 1px;
  	padding: 9px 10px 10px; /* Поля */
- 	margin: 0 0 0 -400px;
+ 	margin: -130px 0 0 -400px;
  	left: 50%; 
  	text-align: center;
 }

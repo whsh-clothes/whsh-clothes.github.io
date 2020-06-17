@@ -98,7 +98,7 @@ html {
  	color: #ffffff;
 	text-shadow: rgba(0, 0, 0, 6) 1px 1px;
  	padding: 6px 10px 10px; /* Поля */
- 	margin: 0 0 0 -160px;
+ 	margin: -60px 0 0 -160px;
  	left: 50%; 
  	text-align: center;
 
@@ -124,7 +124,7 @@ html {
 	width:800px;
 	height:500px;
 	left:50%;
-	top:700px;
+	top:670px;
     margin-right:-50%;
     transform: translate(-50%, -50%)
 }
